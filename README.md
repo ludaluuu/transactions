@@ -9,5 +9,5 @@ or by running *.\gradlew.bat bootRun* on **Windows**.
 ## Running the frontend
 Before starting the frontend, make sure the backend is running.
 Once the backend is running the frontend is started by moving into the frontend library 
-and running *npm start*. Once it is started the application could be reached 
+and running *npm install* followed by *npm start*. Once it is started the application could be reached 
 from a browser on http://localhost:3000

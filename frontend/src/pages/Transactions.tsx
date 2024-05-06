@@ -83,18 +83,6 @@ function Transactions() {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const data = await fetchAllTransactions();
-        setResponse(data);
-      } catch (error) {
-        setError("Could not connect to server");
-      }
-    }
-    fetchData();
-  }, [updatedClassification]);
-
   function handleSubmit() {
     fetchTransactionsInInterval();
   }
